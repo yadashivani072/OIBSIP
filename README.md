@@ -1,24 +1,59 @@
-Python Beginner Chat Application
+BMI Calculator
 
-Description
+Project Description
 
-A simple Python-based chat application that responds to basic user messages.
-
-Features
-
-- Greets the user
-- Responds to simple questions
-- Provides the bot's name
-- Allows the user to exit using "bye"
-- Handles unknown messages
+This is a beginner-level BMI Calculator developed using Python. It accepts the user's weight and height, calculates the Body Mass Index (BMI), and displays the corresponding BMI category.
 
 Technologies Used
 
 - Python
+- "input()"
+- "float()"
+- Conditional statements
+- Exception handling
+
+Features
+
+- Accepts weight in kilograms.
+
+- Accepts height in meters.
+
+- Calculates BMI using the formula:
+  
+  BMI = weight / (height × height)
+
+- Displays BMI rounded to two decimal places.
+
+- Shows the category:
+  
+  - Underweight
+  - Normal
+  - Overweight
+  - Obese
+
+- Handles non-numeric input.
+
+- Rejects zero and negative values.
 
 How to Run
 
-1. Open the project in VS Code.
-2. Run "chat_application.py".
-3. Type a message when prompted.
-4. Type "bye" to exit the application.
+1. Install Python.
+2. Open the project folder in VS Code.
+3. Open the terminal.
+4. Run:
+
+python bmi_calculator.py
+
+5. Enter your weight and height when prompted.
+
+Sample Output
+
+===== BMI Calculator =====
+Enter your weight in kg: 60
+Enter your height in meters: 1.65
+Your BMI is: 22.04
+Category: Normal
+
+Internship Task
+
+Oasis Infobyte Python Programming Internship — BMI Calculator.
